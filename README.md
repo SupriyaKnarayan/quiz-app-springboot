@@ -16,11 +16,12 @@ This is a Spring Boot-based Quiz App with REST APIs for managing quizzes, questi
    
      git clone https://github.com/YOUR_USERNAME/quiz-app-springboot.git
      cd quiz-app-springboot
-3. Run the application using maven
+   
+2. Run the application using maven
    
      mvn spring-boot:run
      
-4. Test the APIs using Postman or your browser:
+3. Test the APIs using Postman or your browser:
 ### Endpoints:
    Start a new quiz session:
   
