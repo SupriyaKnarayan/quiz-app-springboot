@@ -1,5 +1,3 @@
-# quiz-app-springboot
-
 # Quiz App Spring Boot
 
 This is a Spring Boot-based Quiz App with REST APIs for managing quizzes, questions, and results.
