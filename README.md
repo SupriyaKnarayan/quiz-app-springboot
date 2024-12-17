@@ -25,16 +25,16 @@ This is a Spring Boot-based Quiz App with REST APIs for managing quizzes, questi
      
        POST /api/quiz/start
        
-    # Get a random question:
+    #### Get a random question:
      
     GET /api/quiz/question/{sessionId}
 
 
-  # Submit an answer:
+  #### Submit an answer:
 
 POST /api/quiz/submit?sessionId={sessionId}&questionId={questionId}&answer={answer}
 
-# View quiz results:
+#### View quiz results:
 
 GET /api/quiz/results/{sessionId}
 
