@@ -21,9 +21,10 @@ This is a Spring Boot-based Quiz App with REST APIs for managing quizzes, questi
    
 4. Test the APIs using Postman or your browser:
 ### Endpoints:
-    -  Start a new quiz session:
+
+    #### Start a new quiz session:
      
-       POST /api/quiz/start
+     POST /api/quiz/start
        
     #### Get a random question:
      
@@ -32,10 +33,10 @@ This is a Spring Boot-based Quiz App with REST APIs for managing quizzes, questi
 
   #### Submit an answer:
 
-POST /api/quiz/submit?sessionId={sessionId}&questionId={questionId}&answer={answer}
+      POST /api/quiz/submit?sessionId={sessionId}&questionId={questionId}&answer={answer}
 
 #### View quiz results:
 
-GET /api/quiz/results/{sessionId}
+   GET /api/quiz/results/{sessionId}
 
 
